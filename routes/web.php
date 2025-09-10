@@ -20,6 +20,12 @@ Route::get('admin/users/create', function () {
     return view('admin.users.create');
 })->name('admin.users.create');
 
+// car-table
 Route::get('/admin/cars', function () {
     return view('admin.cars.index');
 })->name('admin.cars.index');
+
+// car-create
+Route::get('admin/cars/create', function () {
+    return view('admin.cars.create');
+})->name('admin.cars.create');
