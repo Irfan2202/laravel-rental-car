@@ -9,3 +9,11 @@ Route::get('/', function () {
 Route::get('/admin/dashboard', function () {
     return view('admin.dashboard');
 })->name('admin.dashboard');
+
+Route::get('/admin/users', function () {
+    return view('admin.users.index');
+})->name('admin.users.index');
+
+Route::get('/admin/cars', function () {
+    return view('admin.cars.index');
+})->name('admin.cars.index');
