@@ -9,6 +9,7 @@
         <table class="table table-striped align-middle">
             <thead>
                 <tr>
+                    <th>No</th>
                     <th>Brand</th>
                     <th>Type</th>
                     <th>Year</th>
@@ -23,177 +24,40 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>Toyota</td>
-                    <td>Avanza</td>
-                    <td>2021</td>
-                    <td>B1234XYZ</td>
-                    <td>Black</td>
-                    <td>Petrol</td>
-                    <td>Automatic</td>
-                    <td>7</td>
-                    <td>$35</td>
-                    <td><span class="badge text-bg-success">Available</span></td>
-                    <td>
-                        <a href="#" class="text-info me-2"><i class="bi bi-eye"></i></a>
-                        <a href="#" class="text-warning me-2"><i class="bi bi-pencil"></i></a>
-                        <a href="#" class="text-danger"><i class="bi bi-trash"></i></a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Honda</td>
-                    <td>Jazz</td>
-                    <td>2020</td>
-                    <td>B5678ABC</td>
-                    <td>Red</td>
-                    <td>Petrol</td>
-                    <td>Manual</td>
-                    <td>5</td>
-                    <td>$30</td>
-                    <td><span class="badge text-bg-warning">Booked</span></td>
-                    <td>
-                        <a href="#" class="text-info me-2"><i class="bi bi-eye"></i></a>
-                        <a href="#" class="text-warning me-2"><i class="bi bi-pencil"></i></a>
-                        <a href="#" class="text-danger"><i class="bi bi-trash"></i></a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Mitsubishi</td>
-                    <td>Pajero</td>
-                    <td>2019</td>
-                    <td>D1111DEF</td>
-                    <td>White</td>
-                    <td>Diesel</td>
-                    <td>Automatic</td>
-                    <td>7</td>
-                    <td>$70</td>
-                    <td><span class="badge text-bg-danger">Rented</span></td>
-                    <td>
-                        <a href="#" class="text-info me-2"><i class="bi bi-eye"></i></a>
-                        <a href="#" class="text-warning me-2"><i class="bi bi-pencil"></i></a>
-                        <a href="#" class="text-danger"><i class="bi bi-trash"></i></a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>BMW</td>
-                    <td>X5</td>
-                    <td>2022</td>
-                    <td>L2222GHI</td>
-                    <td>Blue</td>
-                    <td>Hybrid</td>
-                    <td>Automatic</td>
-                    <td>5</td>
-                    <td>$150</td>
-                    <td><span class="badge text-bg-secondary">Maintenance</span></td>
-                    <td>
-                        <a href="#" class="text-info me-2"><i class="bi bi-eye"></i></a>
-                        <a href="#" class="text-warning me-2"><i class="bi bi-pencil"></i></a>
-                        <a href="#" class="text-danger"><i class="bi bi-trash"></i></a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Suzuki</td>
-                    <td>Ertiga</td>
-                    <td>2021</td>
-                    <td>B4321QWE</td>
-                    <td>Silver</td>
-                    <td>Petrol</td>
-                    <td>Manual</td>
-                    <td>7</td>
-                    <td>$28</td>
-                    <td><span class="badge text-bg-success">Available</span></td>
-                    <td>
-                        <a href="#" class="text-info me-2"><i class="bi bi-eye"></i></a>
-                        <a href="#" class="text-warning me-2"><i class="bi bi-pencil"></i></a>
-                        <a href="#" class="text-danger"><i class="bi bi-trash"></i></a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Nissan</td>
-                    <td>Livina</td>
-                    <td>2018</td>
-                    <td>F8765RTY</td>
-                    <td>Gray</td>
-                    <td>Petrol</td>
-                    <td>Automatic</td>
-                    <td>7</td>
-                    <td>$27</td>
-                    <td><span class="badge text-bg-success">Available</span></td>
-                    <td>
-                        <a href="#" class="text-info me-2"><i class="bi bi-eye"></i></a>
-                        <a href="#" class="text-warning me-2"><i class="bi bi-pencil"></i></a>
-                        <a href="#" class="text-danger"><i class="bi bi-trash"></i></a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Tesla</td>
-                    <td>Model 3</td>
-                    <td>2023</td>
-                    <td>Z123TES</td>
-                    <td>White</td>
-                    <td>Electric</td>
-                    <td>Automatic</td>
-                    <td>5</td>
-                    <td>$200</td>
-                    <td><span class="badge text-bg-warning">Booked</span></td>
-                    <td>
-                        <a href="#" class="text-info me-2"><i class="bi bi-eye"></i></a>
-                        <a href="#" class="text-warning me-2"><i class="bi bi-pencil"></i></a>
-                        <a href="#" class="text-danger"><i class="bi bi-trash"></i></a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Ford</td>
-                    <td>Ranger</td>
-                    <td>2019</td>
-                    <td>H5555TTT</td>
-                    <td>Black</td>
-                    <td>Diesel</td>
-                    <td>Manual</td>
-                    <td>5</td>
-                    <td>$80</td>
-                    <td><span class="badge text-bg-danger">Rented</span></td>
-                    <td>
-                        <a href="#" class="text-info me-2"><i class="bi bi-eye"></i></a>
-                        <a href="#" class="text-warning me-2"><i class="bi bi-pencil"></i></a>
-                        <a href="#" class="text-danger"><i class="bi bi-trash"></i></a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Kia</td>
-                    <td>Seltos</td>
-                    <td>2021</td>
-                    <td>BSEL2021</td>
-                    <td>Green</td>
-                    <td>Petrol</td>
-                    <td>Automatic</td>
-                    <td>5</td>
-                    <td>$40</td>
-                    <td><span class="badge text-bg-success">Available</span></td>
-                    <td>
-                        <a href="#" class="text-info me-2"><i class="bi bi-eye"></i></a>
-                        <a href="#" class="text-warning me-2"><i class="bi bi-pencil"></i></a>
-                        <a href="#" class="text-danger"><i class="bi bi-trash"></i></a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Hyundai</td>
-                    <td>Santa Fe</td>
-                    <td>2022</td>
-                    <td>BHYU123</td>
-                    <td>Gray</td>
-                    <td>Diesel</td>
-                    <td>Automatic</td>
-                    <td>7</td>
-                    <td>$90</td>
-                    <td><span class="badge text-bg-secondary">Maintenance</span></td>
-                    <td>
-                        <a href="#" class="text-info me-2"><i class="bi bi-eye"></i></a>
-                        <a href="#" class="text-warning me-2"><i class="bi bi-pencil"></i></a>
-                        <a href="#" class="text-danger"><i class="bi bi-trash"></i></a>
-                    </td>
-                </tr>
+                @foreach ($cars as $car)
+                    <tr>
+                        <td>{{ $loop->iteration }}</td>
+                        <td>{{ $car->brand }}</td>
+                        <td>{{ $car->type }}</td>
+                        <td>{{ $car->year }}</td>
+                        <td>{{ $car->plate_number }}</td>
+                        <td>{{ $car->color }}</td>
+                        <td>{{ $car->fuel_type }}</td>
+                        <td>{{ $car->transmission }}</td>
+                        <td>{{ $car->seat_capacity }}</td>
+                        <td>{{ $car->price_per_day }}</td>
+                        <td>
+                            @php
+                                $status = strtolower($car->status);
+                                $badgeClass = match ($status) {
+                                    'available' => 'text-bg-success',
+                                    'booked' => 'text-bg-warning',
+                                    'rented' => 'text-bg-danger',
+                                    'maintenance' => 'text-bg-secondary',
+                                    default => 'text-bg-light',
+                                };
+                            @endphp
+                            <span class="badge {{ $badgeClass }}">{{ ucfirst($car->status) }}</span>
+                        </td>
+                        <td>
+                            <a href="#" class="text-info me-2"><i class="bi bi-eye"></i></a>
+                            <a href="#" class="text-warning me-2"><i class="bi bi-pencil"></i></a>
+                            <a href="#" class="text-danger"><i class="bi bi-trash"></i></a>
+                        </td>
+                    </tr>
+                @endforeach
             </tbody>
+
         </table>
     </div>
 </div>
