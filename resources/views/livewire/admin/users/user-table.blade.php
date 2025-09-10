@@ -5,6 +5,13 @@
             <a href="#" class="btn btn-tool btn-sm"><i class="bi bi-plus-circle"></i></a>
         </div>
     </div>
+    @if (session()->has('success'))
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            {{ session('success') }}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    @endif
+
     <div class="card-body table-responsive p-0">
         <table class="table table-striped align-middle">
             <thead>
