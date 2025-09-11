@@ -7,6 +7,15 @@ use Livewire\Component;
 
 class UserTable extends Component
 {
+    public function delete($id)
+    {
+        $user = User::findOrFail($id);
+        $user->delete();
+
+        session()->flash('success', 'User berhasil dihapus.');
+        return redirect()->route('admin.users.index');
+    }
+
     public function render()
     {
         $users = User::all();

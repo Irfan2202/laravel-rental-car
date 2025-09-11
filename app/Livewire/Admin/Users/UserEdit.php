@@ -46,6 +46,7 @@ class UserEdit extends Component
         return redirect()->route('admin.users.index');
     }
 
+
     public function render()
     {
         return view('livewire.admin.users.user-edit');

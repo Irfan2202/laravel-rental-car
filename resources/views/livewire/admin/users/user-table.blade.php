@@ -40,9 +40,10 @@
                                 <i class="bi bi-pencil-square"></i>
                                 Edit
                             </a>
-                            <button class="btn btn-outline-danger btn-sm">
-                                <i class="bi bi-trash3"></i>
-                                Delete
+                            <button
+                                onclick="confirm('Apakah Anda yakin ingin menghapus data ini?') || event.stopImmediatePropagation()"
+                                wire:click="delete({{ $user->id }})" class="btn btn-outline-danger btn-sm">
+                                <i class="bi bi-trash3"></i> Delete
                             </button>
                         </td>
 

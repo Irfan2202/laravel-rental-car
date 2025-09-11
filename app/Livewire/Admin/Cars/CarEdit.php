@@ -58,6 +58,8 @@ class CarEdit extends Component
         return redirect()->route('admin.cars.index');
     }
 
+
+
     public function render()
     {
         return view('livewire.admin.cars.car-edit');
