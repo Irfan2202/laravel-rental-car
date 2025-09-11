@@ -36,3 +36,8 @@ Route::get('/admin/cars', function () {
 Route::get('admin/cars/create', function () {
     return view('admin.cars.create');
 })->name('admin.cars.create');
+
+// car-edit
+Route::get('/admin/cars/{id}/edit', function ($id) {
+    return view('admin.cars.edit', compact('id'));
+})->name('admin.cars.edit');

@@ -51,7 +51,8 @@
                         </td>
                         <td>
                             <a href="#" class="text-info me-2"><i class="bi bi-eye"></i></a>
-                            <a href="" class="text-warning me-2"><i class="bi bi-pencil"></i></a>
+                            <a href="{{ route('admin.cars.edit', $car->id) }}" class="text-warning me-2"><i
+                                    class="bi bi-pencil"></i></a>
                             <a href="#" class="text-danger"><i class="bi bi-trash"></i></a>
                         </td>
                     </tr>
