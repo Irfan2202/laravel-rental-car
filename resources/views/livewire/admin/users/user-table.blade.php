@@ -35,10 +35,11 @@
                         <td>{{ $user->address }}</td>
                         <td>{{ ucfirst($user->role) }}</td>
                         <td class="text-nowrap">
-                            <button class="btn btn-outline-primary btn-sm me-1">
+                            <a href="{{ route('admin.users.edit', $user->id) }}"
+                                class="btn btn-outline-primary btn-sm me-1">
                                 <i class="bi bi-pencil-square"></i>
                                 Edit
-                            </button>
+                            </a>
                             <button class="btn btn-outline-danger btn-sm">
                                 <i class="bi bi-trash3"></i>
                                 Delete
