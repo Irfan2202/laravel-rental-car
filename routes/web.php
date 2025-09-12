@@ -1,11 +1,16 @@
 <?php
 
+use App\Models\Car;
 use Illuminate\Support\Facades\Route;
-use App\Livewire\Admin\Users\UserEdit;
+use App\Http\Controllers\CarController;
+
 
 Route::get('/', function () {
-    return view('welcome');
+    $cars = Car::all();
+    return view('public.index', compact('cars'));
 });
+
+Route::get('/cars', [CarController::class, 'index'])->name('public.pages.cars.index');
 
 Route::get('/admin/dashboard', function () {
     return view('admin.dashboard');
